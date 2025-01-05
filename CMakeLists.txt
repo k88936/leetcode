@@ -1,0 +1,12 @@
+cmake_minimum_required(VERSION 3.0)
+project(leetcode)
+set(CMAKE_CXX_STANDARD 20)
+#set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -pg")
+include_directories(include)
+
+add_executable(11-container-with-most-water editor/cn/11-container-with-most-water.cpp)
+add_executable(15-3sum editor/cn/15-3sum.cpp)
+add_executable(16-3sum-closest editor/cn/16-3sum-closest.cpp)
+add_executable(18-4sum editor/cn/18-4sum.cpp)
+add_executable(21-merge-two-sorted-lists editor/cn/21-merge-two-sorted-lists.cpp)
+add_executable(22-generate-parentheses editor/cn/22-generate-parentheses.cpp)
